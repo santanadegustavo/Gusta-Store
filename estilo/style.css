@@ -198,3 +198,118 @@ header nav ul li:hover::after {
         0 0 30px rgba(0, 102, 255, 0.5),
         0 8px 25px rgba(0, 102, 255, 0.35);    
 }
+
+.setas{
+    position: absolute;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.btn-seta{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(0,247, 255, 0.3);
+    border: 1px solid rgba(0,247, 255, 0.3);
+
+    transition: all 0.3s ease;
+}
+
+.btn-seta:hover{
+    background-color: rgba(0, 247, 255, 0.15);
+    color: #00f7ff;
+    border-color: #00f7ff;
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 0 10px rgba(0, 247, 255, 0.5),
+        0 0 25px rgba(0, 247, 255, 0.25);
+}
+
+.indicadores{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 5;
+}
+
+.numeros{
+    font-family: "Orbitron", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.dots{
+    display: flex;
+    gap: 10px;
+}
+
+.dot{
+    width: 40px;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+}
+
+.dot.ativo{
+    background-color: #00f7ff;
+    box-shadow: 0 0 10px rgba(0, 247, 255, 0.5);
+}
+
+.tech-circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circulo{
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 247, 255, 0.089);
+
+}
+
+.circulo:nth-child(1){
+    width: 200px;
+    height: 200px;
+    top: 8%;
+    left: 10%;
+}
+
+.circulo:nth-child(2){
+    width: 120px;
+    height: 120px;
+    top: 55%;
+    left: 85%;
+}
+
+.circulo:nth-child(3){
+    width: 300px;
+    height: 300px;
+    top: 75%;
+    left:15%;
+}
+
+.circulo:nth-child(4){
+    width: 225px;
+    height: 225px;
+    top: 15%;
+    left: 85%;
+}
