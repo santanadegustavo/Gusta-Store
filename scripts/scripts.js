@@ -30,7 +30,15 @@ function update(direcao){
     items[ativo].classList.add('ativo')
     dots[ativo].classList.add('ativo')
 
+    // Novo código aprendido, para adicionar um valor a frente ou depois, antes converti em string.
+    numberIndicator.textContent = String(ativo + 1).padStart(2, '0')
 }
+
+// Novo código aprendido
+clearInterval(timer)
+timer = setInterval(function(){
+    update(1)
+},7000)
 
 prevButton.addEventListener ('click', function(){
 
