@@ -1,132 +1,36 @@
-Gusta Store
+# Gusta Store
 
-Uma landing page de e-commerce inspirada no universo Apple, desenvolvida para apresentar produtos de tecnologia através de uma interface moderna, minimalista e responsiva.
+Boas-vindas ao projeto Gusta Store! Criei essa landing page para praticar a construção de uma interface de e-commerce moderna, minimalista e com uma pegada premium, inspirada no universo de grandes marcas de tecnologia.
 
-Preview
+Quer ver como ficou? [Clique aqui para acessar o site](https://santanadegustavo.github.io/Gusta-Store/)
 
-Acesse a versão publicada do projeto:
+## O que o site faz?
 
-Acessar Gusta Store
+A ideia foi focar 100% no visual e na experiência de navegação (UI/UX). O site entrega:
 
-Sobre o projeto
+* Uma vitrine elegante destacando produtos como o Apple Watch Series 10, AirPods Max e Apple Vision Pro.
+* Um layout totalmente responsivo, que se adapta lindamente desde a tela do celular até monitores grandes.
+* Uma organização visual limpa para classificar as informações sem poluir a tela.
+* Navegação com microinterações que dão aquele toque de "vida" e interatividade ao e-commerce.
 
-O Gusta Store é um projeto front-end desenvolvido com o objetivo de criar uma experiência de navegação inspirada em lojas de tecnologia premium.
+## Como foi construído?
 
-A interface foi construída buscando trabalhar conceitos como design responsivo, organização visual, hierarquia de informações, navegação e apresentação de produtos.
+O projeto foi feito com as três linguagens essenciais da web, sem a dependência de frameworks complexos, focando em fortalecer a base do front-end:
 
-O projeto apresenta produtos e elementos visuais inspirados no ecossistema da Apple, utilizando uma abordagem minimalista para destacar cada seção da página.
+* **HTML5:** Para montar a estrutura semântica da página, garantindo que tudo esteja organizado no lugar certo.
+* **CSS3:** A grande estrela desse projeto! Responsável por todo o layout adaptativo, as cores, os espaçamentos minimalistas e as animações fluidas.
+* **JavaScript:** Para controlar os comportamentos da interface e fazer as interações funcionarem de forma suave.
 
-Funcionalidades
+## Objetivo e Inspiração
 
- Landing page responsiva
+Este projeto tem finalidade estritamente educacional e de portfólio. O objetivo principal foi estudar como aplicar conceitos de design de ponta e retenção visual no código puro. *(Vale lembrar: trata-se de um estudo de interface e não de uma loja oficial da Apple).*
 
- Navegação entre seções
+## Quer testar no seu computador?
 
- Apresentação de produtos
+Se quiser baixar o código e ver como estruturei o HTML e o CSS por dentro, é super simples:
 
- Seção de destaque para produtos
+1. Faça o clone deste repositório rodando o comando: `git clone https://github.com/santanadegustavo/Gusta-Store.git`
+2. Abra a pasta do projeto no seu computador.
+3. Dê dois cliques no arquivo `index.html` para abrir diretamente no seu navegador.
 
- Layout adaptado para diferentes tamanhos de tela
-
- Interface inspirada em e-commerces modernos
-
- Página publicada através do GitHub Pages
-
-Produtos em destaque
-
-O projeto apresenta alguns dos principais produtos utilizados na composição da interface:
-
-Apple Watch Series 10
-
-AirPods Max
-
-Apple Vision Pro
-
-O projeto possui finalidade educacional e de portfólio. Não se trata de uma loja oficial da Apple.
-
-Tecnologias utilizadas
-Tecnologia	Utilização
-HTML5	Estrutura e organização da página
-CSS3	Estilização, layout e responsividade
-JavaScript	Interações e comportamento da interface
-Git	Versionamento do projeto
-GitHub Pages	Hospedagem e publicação
-
-Como executar o projeto
-1. Clone o repositório
-git clone https://github.com/santanadegustavo/Gusta-Store.git
-
-2. Acesse a pasta
-cd Gusta-Store
-
-3. Execute o projeto
-
-Por ser um projeto desenvolvido com HTML, CSS e JavaScript, basta abrir o arquivo index.html no navegador.
-
-Também é possível utilizar extensões como Live Server no VS Code para executar o projeto durante o desenvolvimento.
-
-Projeto publicado
-
-A versão online está disponível através do GitHub Pages:
-
-https://santanadegustavo.github.io/Gusta-Store/
-
-Objetivos e aprendizados
-
-Durante o desenvolvimento do projeto, foram trabalhados conceitos importantes de desenvolvimento front-end, incluindo:
-
-Estruturação de páginas com HTML5
-
-Desenvolvimento de layouts com CSS3
-
-Responsividade para diferentes dispositivos
-
-Organização de componentes e seções
-
-Criação de interfaces modernas
-
-Manipulação de elementos através de JavaScript
-
-Publicação de projetos utilizando GitHub Pages
-
-Organização de um projeto para apresentação em portfólio
-
-Próximos passos
-
-Algumas melhorias que podem ser implementadas futuramente:
-
- Implementar carrinho de compras
-
- Adicionar páginas individuais para os produtos
-
- Implementar sistema de busca
-
- Adicionar filtros de produtos
-
- Integrar uma API ou banco de dados
-
- Criar sistema de autenticação
-
- Implementar checkout
-
- Melhorar acessibilidade
-
- Adicionar testes automatizados
-
-Autor
-
-Gustavo Santana
-
-Projeto desenvolvido para fins de estudo, prática e portfólio profissional.
-
-Links
-
-Projeto: Gusta Store
-
-Repositório: GitHub
-
-Licença
-
-Este projeto foi desenvolvido para fins educacionais e de portfólio.
-
-Os nomes, marcas e produtos relacionados à Apple pertencem aos seus respectivos proprietários. Este projeto não possui vínculo oficial com a Apple Inc.
+Feito com dedicação para aprender e dominar cada vez mais o desenvolvimento web front-end.
